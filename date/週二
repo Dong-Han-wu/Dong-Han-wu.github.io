@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>週二流程時間軸</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-timeline@3.0.3/dist/css/bulma-timeline.min.css">
+  <style>
+    .scrollable-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 10px;
+    }
+
+    body {
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .timeline-content {
+      padding: 0.75rem;
+    }
+
+    .timeline-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .heading {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+
+    .timeline-header {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    span {
+      display: inline-block;
+      max-width: 100%;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="section">
+    <div class="container">
+    <h1 class="title has-text-centered">週二</h1>
+    <p>
+    <a href='<?= url ?>' class="button is-link">返回首頁</a>
+  </p>
+      <h1 class="title has-text-centered">操作流程時間軸</h1>
+
+      <div class="timeline is-centered">
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary ">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">0550</p>
+            <p>弟兄：開水塔。設置招待AudioRelay。</p>
+            <p>姊妹們架設樓下電氣：開電源。設置手持麥克風與教師用麥克風。電池充電。開電腦。開AudioRelay。開GoldWave。開冷氣。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">0645</p>
+            <p>服事人位就位。錄音。開RCF Remote。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">0700</p>
+            <p>停止錄音。上傳錄音。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">0720</p>
+            <p>關冷氣，開抽風。整理教師桌上的麥克風。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">0820</p>
+            <p>開冷氣，關抽風。禱告豫備。開始錄音。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">0945</p>
+            <p>停止錄音。上傳錄音。關冷氣，開抽風。整理教師桌上的麥克風。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">1000</p>
+            <p>架麥克風架。開始錄音。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">1115</p>
+            <p>停止錄音。上傳錄音。關冷氣，開抽風。整理教師桌上的麥克風。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">1215</p>
+            <p>收並清潔麥克風。電池充電。關閉音響設備。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">1400</p>
+            <p>準備麥克風。開音響設備。關抽風。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">1525</p>
+            <p>開始錄音。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">1645</p>
+            <p>停止錄音。上傳錄音。</p>
+          </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-content">
+            <p class="heading">1720</p>
+            <p>收麥克風。電池不充電。關電腦。關音響設備。關冷氣。關水塔。</p>
+          </div>
+        </div>
+
+        <!-- Timeline header for the end -->
+        <div class="timeline-header">
+          <span class="tag is-primary">流程結束</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</body>
+
+</html>
