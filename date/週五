@@ -58,9 +58,10 @@
 <section class="section">
     <div class="container">
     <h1 class="title has-text-centered">週五</h1>
-    <p>
-    <a href='<?= url ?>' class="button is-link">返回首頁</a>
+<p>
+    <a href='/' class="button is-link">返回首頁</a>
 </p>
+
         <h1 class="title has-text-centered">操作流程時間軸</h1>
 
         <div class="timeline is-centered">
