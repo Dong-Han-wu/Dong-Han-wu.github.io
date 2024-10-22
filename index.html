@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>操作流程時間軸</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-timeline@3.0.3/dist/css/bulma-timeline.min.css">
+  <style>
+      body {
+          background-color: #f9f9f9;
+      }
+
+      .container {
+          max-width: 800px; /* 調整內容的寬度 */
+          margin: 0 auto; /* Centering the content */
+      }
+
+      .timeline-content {
+          padding: 0.75rem; /* Adjusting padding for smaller width */
+      }
+
+      .timeline-item {
+          margin-bottom: 1.5rem; /* Reducing space between items */
+      }
+
+      .heading {
+          font-size: 1rem; /* Adjusting the font size for smaller width */
+      }
+
+      p {
+          font-size: 0.875rem; /* Adjusting paragraph text size */
+      }
+
+      .timeline-header {
+          text-align: center;
+          margin: 1rem 0;
+      }
+
+      span {
+          display: inline-block;
+          max-width: 100%;
+          word-wrap: break-word;
+          overflow-wrap: break-word; /* Ensures text breaks within the span */
+      }
+  </style>
+</head>
+
+<body>
+
+<section class="section">
+  <div class="container">
+
+    <ul style="display: flex; justify-content: flex-end; padding: 0;">
+        <? var count = urls.length; ?>
+        <? for(var i = 0; i < count; i ++) { ?>
+          <li style="list-style: none; margin-left: 10px;"><a href='<?= urls[i] ?>' class="button">週<?= i + 1 ?></a></li>
+        <? } ?>
+    </ul>
+
+
+    <h1 class="title has-text-centered">首頁</h1>
+    <h3 class="title has-text-centered" style="color: orange;">錄音檔</h3> 
+    <h1 class="title has-text-centered">操作流程時間軸</h1>
+
+    <div class="timeline is-centered">
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary ">
+            <div class="timeline-marker is-primary"></div>
+            <div class="timeline-content">
+                <p class="heading">每晚 21:00</p>
+                <p>執行 </p>
+                <p style="color: orange;">output_csv_readpath</p>
+                <p>，生成 output.csv 檔案。</p>
+            </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+            <div class="timeline-marker is-primary"></div>
+            <div class="timeline-content">
+                <p class="heading">要手動操作</p>
+                <p>點擊「匯入並排序 CSV」，將 Google Drive 中的 output.csv 匯入試算表，並依照日期進行排序。</p>
+            </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+            <div class="timeline-marker is-primary"></div>
+            <div class="timeline-content">
+                <p class="heading">要手動操作</p>
+                <p>點擊「從工作表更新核取方塊」，將 output 工作表中的 B 欄檔案名稱更新至 Google 表單的核取方塊選項。</p>
+            </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+            <div class="timeline-marker is-primary"></div>
+            <div class="timeline-content">
+                <p class="heading">填寫表單</p>
+                <p>有學員填寫表單並通過輔訓。</p>
+            </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+            <div class="timeline-marker is-primary"></div>
+            <div class="timeline-content">
+                <p class="heading">要手動操作或看狀況</p>
+                <p>要自己複製 將檔案名稱、路徑和學員姓名複製到 input 試算表中。</p>
+            </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary">
+            <div class="timeline-marker is-primary"></div>
+            <div class="timeline-content">
+                <p class="heading">要手動操作</p>
+                <p>點擊「匯出 CSV」，生成 input.csv 檔案，並將其存到 Google Drive。</p>
+            </div>
+        </div>
+
+        <!-- Timeline item -->
+        <div class="timeline-item is-primary ">
+            <div class="timeline-marker is-primary"></div>
+            <div class="timeline-content">
+                <p class="heading">要手動操作</p>
+                <p>執行 </p>
+                <p style="color: orange;">read_inputcsv_createfolder</p>
+                <p>，自動創建包含檔案的學員資料夾。</p>
+            </div>
+        </div>
+
+        <!-- Timeline header for the end -->
+        <div class="timeline-header">
+            <span class="tag is-primary">流程結束</span>
+        </div>
+
+    </div>
+
+  </div>
+</section>
+
+</body>
+
+</html>
