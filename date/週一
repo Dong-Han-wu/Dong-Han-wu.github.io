@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <base target="_top">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>週一流程時間軸</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-timeline@3.0.3/dist/css/bulma-timeline.min.css">
+    <style>
+        .scrollable-container {
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px;
+        }
+        body {
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .timeline-content {
+            padding: 0.75rem;
+        }
+
+        .timeline-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .heading {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+
+        .timeline-header {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        span {
+            display: inline-block;
+            max-width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="section">
+    <div class="container">
+    <h1 class="title has-text-centered">週一</h1>
+    <p>
+    <a href='/' class="button is-link">返回首頁</a>
+    </p>
+        <h1 class="title has-text-centered">操作流程時間軸</h1>
+
+        <div class="timeline is-centered">
+            
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">12:10</p>
+                    <p>開水塔。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">12:20-12:25</p>
+                    <p>準備麥克風，開課室冷氣。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">12:25-12:30</p>
+                    <p>當天所有服事人員抵達地下禱告。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">12:45-12:50</p>
+                    <p>收拾B1場地，關冷氣，開抽風。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">12:50-13:00</p>
+                    <p>準備麥克風架、音源線，確認樓上麥克風。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">14:00</p>
+                    <p>姊妹們準備麥克風，開音響設備，關抽風。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">15:10</p>
+                    <p>關冷氣，交麥克風給樓長，準備錄音。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">15:25</p>
+                    <p>錄音開始，遞麥克風給教師。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">17:30</p>
+                    <p>停止錄音，上傳錄音，關閉設備，收拾物品。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">18:55</p>
+                    <p>準備麥克風，開課室冷氣。</p>
+                </div>
+            </div>
+
+            <!-- Timeline item -->
+            <div class="timeline-item is-primary">
+                <div class="timeline-marker is-primary"></div>
+                <div class="timeline-content">
+                    <p class="heading">21:00</p>
+                    <p>收麥克風，關電腦與冷氣。</p>
+                </div>
+            </div>
+
+            <!-- Timeline header for the end -->
+            <div class="timeline-header">
+                <span class="tag is-primary">流程結束</span>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</body>
+
+</html>
